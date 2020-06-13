@@ -1,0 +1,118 @@
+.menu {
+  grid-area: menu;
+  grid-column: 1;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  width: 50px;
+  margin-bottom: -61px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template: auto;
+  grid-template-columns: 1fr 8fr;
+  grid-template-rows: 1fr 7fr;
+  width: 100vw;
+  height: 100vh;
+}
+.header{
+  grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    grid-column: 1 / 4;
+    grid-row: 1;
+    padding: 0 10px;
+    align-items: center;
+}
+.logo {
+  padding: 0px 10px;
+    height: 100px;
+    margin-top: 20px;
+    padding-bottom: 6px;
+    width: 109px;
+}
+.tab-container{
+  width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    padding: 20px 62px 0px 0px;
+    border: 3px solid black;
+}
+.list-link{
+  color: black;
+}
+.project-tab {
+  padding: 10%;
+  margin-top: -8%;
+}
+.project-tab #tabs{
+  background: #007b5e;
+  color: #eee;
+}
+.project-tab #tabs h6.section-title{
+  color: #eee;
+}
+.project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #0062cc;
+  background-color: transparent;
+  border-color: transparent transparent #f3f3f3;
+  border-bottom: 3px solid !important;
+  font-size: 16px;
+  font-weight: bold;
+}
+.project-tab .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  color: #0062cc;
+  font-size: 16px;
+  font-weight: 600;
+}
+.project-tab .nav-link:hover {
+  border: none;
+}
+.project-tab thead{
+  background: #f3f3f3;
+  color: #333;
+}
+.project-tab a{
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+.text-line {
+  background-color: transparent;
+  outline: none;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid #eeeeee 1px;
+  padding: 3px 10px;
+  margin: -6px;
+  width: 200px;
+}
+.profile-container{
+  display: flex;
+  flex-direction: column;
+  margin: 11px;
+  padding: 10px;
+}
+.profile-main{
+  display: flex;
+}
+.profile-btn{
+  float: right;
+}
